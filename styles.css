@@ -1,0 +1,99 @@
+body{
+    background-color: #9292A6;
+    display: flex;
+    justify-content: center;
+
+}
+
+.fotos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info_titulo{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-family: 'Roboto Mono', monospace;
+    margin-right: 100px;
+    
+}
+
+.parrafo{
+    display: flex;
+    justify-content: center;
+    font-size:large;
+    font-family: 'Roboto Mono', monospace;
+    margin-right: 100px;
+    margin-top: 50px;
+    border-style:solid;
+    border-radius: 15px;
+    border-width: 5px;
+    border-color: white;
+    padding: 10px;
+    
+}
+.btnr{
+    display: flex;
+    margin-left: 0px;
+    margin-right: 100px;
+    flex-direction: row;
+    justify-content:space-between;
+    
+    
+}
+
+button{
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 0px;
+    width: 10px;
+    height: 10px;
+    margin-top: 125px;
+
+}
+
+.btnr_favs--boton{
+    width: 10px;
+    height: 10px;
+}
+
+
+.btnr_spotify--boton{
+    width: 10px;
+    height: 10px;
+   
+
+}
+.btnr_instagram--boton{
+    width: 10px;
+    height: 10px;
+    margin-right: 150px;
+  
+}
+.pareja_1 img:hover{
+    transform: scale(1.1);
+}
+
+.pareja_2 img:hover{
+    transform: scale(1.1);
+}
+
+.pareja_3 img:hover{
+    transform: scale(1.1);
+}
+
+.pareja_4 img:hover{
+    transform: scale(1.1);
+}
+
+.btnr_favs--boton img:hover{
+    opacity: 0.7;
+}
+.btnr_spotify--boton img:hover{
+    opacity: 0.7;
+}
+.btnr_instagram--boton img:hover{
+    opacity: 0.7;
+}
+

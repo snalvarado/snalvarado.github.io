@@ -1,0 +1,61 @@
+body{
+    background-color: #9292A6;
+
+}
+.fotos{
+    margin-top: -150px;
+}
+.tit1{
+    font-size:larger;
+}
+.tit2{
+    font-size:larger;
+}
+.trio_1--off{
+    margin-right: 50px;
+}
+.trio_1--tr{
+    margin-left: 50px;
+    margin-right: 50px;
+}   
+.trio_1--f{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.trio_2--t{
+    margin-right: 50px;
+}
+.trio_2--p{
+    margin-left: 50px;
+    margin-right: 50px;
+}   
+.trio_2--g{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+button{
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 0px;
+    width: 10px;
+    height: 10px;
+    margin-left: 1200px;
+    
+}
+.btn_r--boton{
+    display: flex;
+    justify-content:right ;
+    margin-right:100px ;
+    margin-top: 80px;
+}
+.btn_r--boton img:hover{
+    opacity: 0.7;
+}
+
+.trio_1 img:hover{
+    transform: scale(1.1);
+}
+.trio_2 img:hover{
+    transform: scale(1.1);
+}
